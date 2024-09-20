@@ -13,9 +13,9 @@ const FoodItem = ({id,name,price, description,image}) => {
               {!itemCount  
                 ? <img className='add' onClick={() => setItemCount(prev=>prev+1)} src={assests.plus} alt="" />
                 : <div className="food-item-counter">
-                  <img className='remove' onClick={() => setItemCount(prev=>prev-1)} src={assests.remove} alt="" />
+                  <img  onClick={() => setItemCount(prev=>prev-1)} src={assests.remove} alt="" />
                  <p>{itemCount}</p>
-                 <img className='add' onClick={() => setItemCount(prev=>prev+1)} src={assests.add2} alt="" />
+                 <img  onClick={() => setItemCount(prev=>prev+1)} src={assests.green} alt="" />
                 </div>
               
             }

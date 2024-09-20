@@ -5,6 +5,7 @@ import star from './Star Rating 1.png'
 import add from './add_Icon.png'
 import add2 from './add 2.png'
 import plus from './plus.png'
+import green from './green add.png'
 import remove from './remove _.png'
 import Soups from './okra 1.png'
 import Cakes from './cake 4.png'
@@ -64,6 +65,7 @@ export const assests =  {
         add,
         add2,
         plus,
+        green,
         remove,
         Soups,
         Cakes,
@@ -296,11 +298,11 @@ export const assests =  {
       },
       {
          _id: "23",
-         name:"oha",
+         name:"friedRice",
          image:food23,
          price: 1890,
-         description:"Best figure licking oha ever",
-         category:"oha"
+         description:"Best figure licking fried rice ever",
+         category:"Friedrice"
       },
       {
          _id: "24",
@@ -312,27 +314,27 @@ export const assests =  {
       },
       {
          _id: "25",
-         name:"cake",
+         name:"Okra",
          image:food25,
          price: 9800,
+         description:"Best figure licking Okra ever",
+         category:"Okra"
+      },
+      {
+         _id: "26",
+         name:"cake",
+         image:food26,
+         price: 1800,
          description:"Best figure licking cake ever",
          category:"cake"
       },
       {
-         _id: "26",
+         _id: "27",
          name:"salad",
-         image:food26,
+         image:food27,
          price: 1800,
          description:"Best figure licking salad ever",
          category:"salad"
-      },
-      {
-         _id: "27",
-         name:"okra",
-         image:food27,
-         price: 1800,
-         description:"Best figure licking okra ever",
-         category:"okra"
       },
       {
          _id: "28",
@@ -344,11 +346,11 @@ export const assests =  {
       },
       {
          _id: "29",
-         name:"okra",
+         name:"salad",
          image:food29,
          price: 1800,
          description:"Best figure licking okra ever",
-         category:"okra"
+         category:"salad"
       },
       {
          _id: "30",
