@@ -7,6 +7,12 @@ import add2 from './add 2.png'
 import plus from './plus.png'
 import green from './green add.png'
 import remove from './remove _.png'
+import insta from './instagram_icon.png'
+import twitter from './twitter_icon.png'
+import linkedline from './linkedlin_icon.png'
+import facebook from './facebook_icon.png'
+import playstore from './playstore-icon.png'
+import appstore from './appstore-icon.png'
 import Soups from './okra 1.png'
 import Cakes from './cake 4.png'
 import doughnuts from './doughnut 1.png'
@@ -86,6 +92,12 @@ export const assests =  {
         plus,
         green,
         remove,
+        insta,
+        twitter,
+        linkedline,
+        facebook,
+        playstore,
+        appstore,
         Soups,
         doughnuts,
         burger,

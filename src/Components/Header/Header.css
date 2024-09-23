@@ -43,3 +43,26 @@
 .header-content button:hover{
     background-color: #fff4f2;
 }
+
+@media (max-width:1050px) {
+    
+     .header-content{
+        max-width: 45%;
+     }
+
+}
+
+
+@media (max-width:750px) {
+    .header-content{
+       max-width: 80%;
+    }
+
+    .header-content p{
+        display: none;
+    }
+
+    .header-content button{
+        padding: 2vw 4vw;
+    }
+}
