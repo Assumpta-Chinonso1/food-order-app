@@ -12,6 +12,7 @@ import twitter from './twitter_icon.png'
 import linkedline from './linkedin_icon.png'
 import playstore from './playstore-icon.png'
 import appstore from './appstore-icon.png'
+import cross from './cross_icon.png'
 import Soups from './okra 1.png'
 import Cakes from './cake 4.png'
 import doughnuts from './doughnut 1.png'
@@ -96,6 +97,7 @@ export const assests =  {
         linkedline,
         playstore,
         appstore,
+        cross,
         Soups,
         doughnuts,
         burger,
