@@ -21,18 +21,25 @@ import { Food_lists } from "../../assets/assests";
      const removeFromCart = (itemId) => {
         setCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}))
      }
-
-     useEffect(()=>{
-         console.log(cartItems);
-         
-      },[cartItems])
+        
+     const getTotalCartItems = () => {
+        let totalAmount = 0;
+        for (const item in cartItems){
+            if (cartItems[item]> 0) {
+               let itemInfo = Food_lists.find((product) => product._id === item)
+               totalAmount += itemInfo.price* cartItems[item]
+            }
+        } 
+        return totalAmount
+     }
 
     const contextValue = {
           Food_lists,
           cartItems,
           setCartItems,
           addToCart,
-          removeFromCart
+          removeFromCart,
+          getTotalCartItems
     }
     return (
         <StoreContext.Provider value={contextValue}>

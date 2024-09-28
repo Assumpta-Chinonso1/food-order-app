@@ -14,7 +14,7 @@ const App = () => {
   return (
 
     <> 
-           {showLoginForm? <LoginForm setShowLoginForm={setShowLoginForm}/>:<></>}
+ {showLoginForm? <LoginForm setShowLoginForm={setShowLoginForm}/>:<></>}
 
     <div className='app'>
      <Navbar setShowLoginForm={setShowLoginForm}/>
@@ -25,7 +25,7 @@ const App = () => {
         <Route path='/order' element={<PlaceOrder/>} />
       </Routes>
       </div>
-      
+        <Footer/>
       </>
   )
 }

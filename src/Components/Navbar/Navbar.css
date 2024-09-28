@@ -28,7 +28,7 @@
     background: transparent;
     margin-left: 20px;
     padding: 10px 30px;
-    border: 1px solid tomato;
+    border: 1px solid grey;
     border-radius: 50px;
     font-size: 20px;
     cursor: pointer;
@@ -38,7 +38,7 @@
 }
 
 .navbar button:hover{
-    background-color: #fff4f2;
+    background-color: rgb(222, 151, 20);
 }
 
 .navbar .active{
